@@ -1,0 +1,42 @@
+.body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.mt-10, .my-10 {
+    margin-top: 6rem!important;
+    margin-top: 6rem!important;
+}
+
+.footer {
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 50px;
+    line-height: 50px; /* Vertically center the text there */
+}
+
+@media only screen and (max-width:400px) {
+
+    .footer {
+        width: 100%;
+        /* Set the fixed height of the footer here */
+        height: 50px;
+        font-size: 14px;
+        padding-top: 0.3em;
+        padding-left: 3em;
+        line-height: 1.5em;
+    }
+}
+
+.bg-blue{
+    background-color: #1049cf;
+}
+
+.black{
+    color: black;
+}
